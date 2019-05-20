@@ -1,0 +1,6 @@
+[submodule "JohnTheRipper"]
+	path = JohnTheRipper
+	url = https://github.com/alexliu0809/JohnTheRipper
+[submodule "HashcatRulesEngine"]
+	path = HashcatRulesEngine
+	url = https://github.com/alexliu0809/HashcatRulesEngine
