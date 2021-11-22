@@ -71,8 +71,10 @@ sudo apt-get install build-essential python3-pip git
 ```
 After this, we've built a script for you to one-click install our tool. Simple download the [setup.sh](setup.sh) file and run.
 ```bash
-# Super user permissions not required
+# Do not clone this repository yourself, setup.sh will do this for you!
+wget https://raw.githubusercontent.com/UChicagoSUPERgroup/analytic-password-cracking/master/setup.sh
 chmod +x setup.sh
+# Super user permissions not required
 ./setup.sh
 ```
 ### Manual Installation
@@ -82,7 +84,7 @@ Please follow the steps in `setup.sh`. If you have problem building JtR's source
 
 First enter the demo directory
 ```bash
-cd demo
+cd analytic-password-cracking/demo
 ```
 We've put some demo wordlists, rulelists and testsets there for you to play with. For example, you can run the following cmds to output an estimated guess number for each password in `demo.txt`, assuming the wordlist is `demo.lst` and the rulelist is `demo_HC.rule` / `demo_JtR.rule`.
 ```bash
